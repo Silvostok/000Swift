@@ -1,8 +1,8 @@
 # 000Swift
 
-Hi Folk,
+Hi friends,
 
-Learning Swift by doing. This is how I'm learning iOS, Swift and practice my design skills with Sketch. I try to put inb practice what I'm learning. Thanks for yours comments.
+Learning Swift by doing. This is how I'm learning iOS, Swift and practice my design skills with Sketch. I try to put in practice what I'm learning. Thanks for yours comments.
 
 
 ## Project 01 - Camera
@@ -26,3 +26,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
 
 
 ## Project 03 - Search in a Table
+
+
+
+## Project 04 - Using Segues
