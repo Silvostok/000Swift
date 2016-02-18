@@ -9,17 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  var flipped = false
+  let button = UIButton(type: .Custom)
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    button.titleLabel?.font = UIFont.systemFontOfSize(72, weight: 0)
+    button.setTitle("😛", forState: UIControlState.Normal)
+    button.addTarget(self, action: "flip", forControlEvents: .TouchUpInside)
+    
+    view.addSubview(button)
+    
+    button.sizeToFit()
+    button.center = view.center
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  func flip() {
+    flipped = !flipped
+    
+    UIView.transitionWithView(
+      button,
+      duration: 0.3,
+      options: .TransitionFlipFromTop,
+      animations: {
+        self.button.setTitle(self.flipped ? "😛" : "🤑", forState: .Normal)
+      },
+      completion: nil
+    )
   }
-
-
 }
 
