@@ -22,12 +22,41 @@ I have learned:
 - using transitionWithView func for easy annimations
 
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
 ## Project 03 - Search in a Table
 
+I have learned:
+- 
+- 
+
+
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
 
 
 ## Project 04 - Using Segues
+
+I have learned:
+- 
+- 
+
+
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+
+
+
+## Project 05 - Table Delete Rows
+
+I have learned:
+- 
+- 
+
+
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
