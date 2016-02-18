@@ -25,4 +25,4 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
 
 
 
-## Project 02 - Search in a Table
+## Project 03 - Search in a Table
