@@ -14,6 +14,7 @@
 		4FD63EA81C76518700EC6E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD63EA61C76518700EC6E94 /* LaunchScreen.storyboard */; };
 		4FD63EB31C76518700EC6E94 /* TableDeleteRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63EB21C76518700EC6E94 /* TableDeleteRowTests.swift */; };
 		4FD63EBE1C76518700EC6E94 /* TableDeleteRowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63EBD1C76518700EC6E94 /* TableDeleteRowUITests.swift */; };
+		4FD63ECC1C76637000EC6E94 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63ECB1C76637000EC6E94 /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4FD63EB91C76518700EC6E94 /* TableDeleteRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableDeleteRowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD63EBD1C76518700EC6E94 /* TableDeleteRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDeleteRowUITests.swift; sourceTree = "<group>"; };
 		4FD63EBF1C76518700EC6E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD63ECB1C76637000EC6E94 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4FD63EA41C76518700EC6E94 /* Assets.xcassets */,
 				4FD63EA61C76518700EC6E94 /* LaunchScreen.storyboard */,
 				4FD63EA91C76518700EC6E94 /* Info.plist */,
+				4FD63ECB1C76637000EC6E94 /* Icon.swift */,
 			);
 			path = TableDeleteRow;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD63ECC1C76637000EC6E94 /* Icon.swift in Sources */,
 				4FD63EA01C76518700EC6E94 /* ViewController.swift in Sources */,
 				4FD63E9E1C76518700EC6E94 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				4FD63EC41C76518700EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63EC51C76518700EC6E94 /* Build configuration list for PBXNativeTarget "TableDeleteRowTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				4FD63EC71C76518700EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63EC81C76518700EC6E94 /* Build configuration list for PBXNativeTarget "TableDeleteRowUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				4FD63ECA1C76518700EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
