@@ -51,12 +51,12 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
-## Project 05 - Table Delete Rows
+## Project 05 - Delete rows in Table
 
 I have learned:
-- 
-- 
+- delete row in table using Table delegate function
+- deleting row with animation
+- using special built-in item to put on nav bar: editButtonItem()
 
-
-
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
+Credits: Free resources: This 12 Colorful Music Icons are designed by Pramod Kabadi. Source: http://www.sketchappsources.com/free-source/1829-colorful-music-icon-set-sketch-freebie-resource.html
