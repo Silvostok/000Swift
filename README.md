@@ -59,4 +59,5 @@ I have learned:
 - using special built-in item to put on nav bar: editButtonItem()
 
 Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
+
 Credits: Free resources: This 12 Colorful Music Icons are designed by Pramod Kabadi. Source: http://www.sketchappsources.com/free-source/1829-colorful-music-icon-set-sketch-freebie-resource.html
