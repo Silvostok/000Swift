@@ -51,7 +51,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
-## Project 05 - Table Delete Rows
+## Project 05 - Delete rows in Table
 
 I have learned:
 - delete row in table using Table delegate function
