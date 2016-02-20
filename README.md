@@ -1,3 +1,12 @@
+
+
+
+<p align="center">
+    <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
+    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift2-f48041.svg?style=flat" alt="Language: Swift 2" /></a>
+</p>
+
+
 # 000Swift
 
 Learning Swift by doing. This is how I'm learning iOS, Swift and practice my design skills with Sketch. I try to put in practice what I'm learning. Thanks for yours comments.
@@ -50,8 +59,8 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
-
 ## Project 05 - Delete rows in Table
+![Alt text](?raw=true)
 
 I have learned:
 - delete row in table using Table delegate function
