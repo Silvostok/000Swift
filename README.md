@@ -60,8 +60,8 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 05 - Delete rows in Table
-![Alt text](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2005/TableDeleteRow/TableDeleteRow.gif)
-![Alt text](?raw=true)
+![Alt text](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2005/TableDeleteRow/TableDeleteRow.gif?raw=true)
+
 
 I have learned:
 - delete row in table using Table delegate function
@@ -70,4 +70,5 @@ I have learned:
 
 Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
-Credits: Free resources: This 12 Colorful Music Icons are designed by Pramod Kabadi. Source: http://www.sketchappsources.com/free-source/1829-colorful-music-icon-set-sketch-freebie-resource.html
+Credits: Free resources: This 12 Colorful Music Icons are designed by Pramod Kabadi. 
+Source: [sketchappsources](http://www.sketchappsources.com/free-source/1829-colorful-music-icon-set-sketch-freebie-resource.html)
