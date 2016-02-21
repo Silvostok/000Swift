@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -45,36 +46,44 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="RXc-11-d1s" firstAttribute="leading" secondItem="AoT-pa-O5d" secondAttribute="leading" id="8jP-Ah-QCR"/>
-                                    <constraint firstItem="RXc-11-d1s" firstAttribute="top" secondItem="AoT-pa-O5d" secondAttribute="top" id="AeD-dg-me3"/>
-                                    <constraint firstAttribute="bottom" secondItem="RXc-11-d1s" secondAttribute="bottom" id="lqI-W3-Asp"/>
-                                    <constraint firstAttribute="trailing" secondItem="RXc-11-d1s" secondAttribute="trailing" id="mY4-Iq-XoU"/>
+                                    <constraint firstAttribute="bottom" secondItem="RXc-11-d1s" secondAttribute="bottom" id="3th-rU-dV7"/>
+                                    <constraint firstItem="RXc-11-d1s" firstAttribute="top" secondItem="AoT-pa-O5d" secondAttribute="top" id="5Qe-1f-UJA"/>
+                                    <constraint firstItem="RXc-11-d1s" firstAttribute="leading" secondItem="AoT-pa-O5d" secondAttribute="leading" id="GUY-pi-nJi"/>
+                                    <constraint firstAttribute="trailing" secondItem="RXc-11-d1s" secondAttribute="trailing" id="Hmo-tE-ETc"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AoT-pa-O5d" secondAttribute="bottom" id="1YR-6w-OWg"/>
                             <constraint firstItem="AoT-pa-O5d" firstAttribute="top" secondItem="kSl-oE-M1q" secondAttribute="bottom" id="6vA-RX-ljI"/>
                             <constraint firstItem="AoT-pa-O5d" firstAttribute="top" secondItem="kSl-oE-M1q" secondAttribute="bottom" id="8v9-FW-oC9"/>
-                            <constraint firstItem="AoT-pa-O5d" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Cwc-Jo-0ZO"/>
+                            <constraint firstItem="kSl-oE-M1q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Bc5-2i-Gik"/>
                             <constraint firstItem="kSl-oE-M1q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DSS-OV-UAp"/>
+                            <constraint firstItem="kSl-oE-M1q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Fu9-Xe-VWI"/>
+                            <constraint firstItem="kSl-oE-M1q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H0y-5H-iPz"/>
+                            <constraint firstItem="AoT-pa-O5d" firstAttribute="top" secondItem="kSl-oE-M1q" secondAttribute="bottom" id="J0j-X4-muL"/>
                             <constraint firstAttribute="trailing" secondItem="kSl-oE-M1q" secondAttribute="trailing" id="LmN-BO-CO7"/>
-                            <constraint firstItem="AoT-pa-O5d" firstAttribute="top" secondItem="kSl-oE-M1q" secondAttribute="bottom" id="Oey-QA-yKB"/>
-                            <constraint firstItem="AoT-pa-O5d" firstAttribute="trailing" secondItem="kSl-oE-M1q" secondAttribute="trailing" id="PwL-Gk-0L8"/>
                             <constraint firstAttribute="trailing" secondItem="AoT-pa-O5d" secondAttribute="trailing" id="akv-7r-O5W"/>
+                            <constraint firstAttribute="trailing" secondItem="kSl-oE-M1q" secondAttribute="trailing" id="bkw-0H-INq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AoT-pa-O5d" secondAttribute="bottom" id="dYR-CN-JLG"/>
                             <constraint firstItem="AoT-pa-O5d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hHQ-gS-soG"/>
+                            <constraint firstAttribute="trailing" secondItem="AoT-pa-O5d" secondAttribute="trailing" id="jTa-O7-Ysn"/>
                             <constraint firstAttribute="trailing" secondItem="kSl-oE-M1q" secondAttribute="trailing" id="jhZ-qc-64d"/>
-                            <constraint firstItem="kSl-oE-M1q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mtM-ep-37t"/>
-                            <constraint firstItem="kSl-oE-M1q" firstAttribute="leading" secondItem="AoT-pa-O5d" secondAttribute="leading" id="pLO-eA-xw7"/>
+                            <constraint firstItem="AoT-pa-O5d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ltz-Qt-b88"/>
                             <constraint firstItem="kSl-oE-M1q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sxr-8j-hRU"/>
                             <constraint firstItem="kSl-oE-M1q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xry-KS-VQj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kSl-oE-M1q" secondAttribute="trailing" id="y5D-w3-zPZ"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="Bc5-2i-Gik"/>
                                 <exclude reference="DSS-OV-UAp"/>
+                                <exclude reference="LmN-BO-CO7"/>
                                 <exclude reference="jhZ-qc-64d"/>
                                 <exclude reference="sxr-8j-hRU"/>
+                                <exclude reference="xry-KS-VQj"/>
+                                <exclude reference="y5D-w3-zPZ"/>
                                 <exclude reference="6vA-RX-ljI"/>
                                 <exclude reference="8v9-FW-oC9"/>
                                 <exclude reference="akv-7r-O5W"/>
@@ -90,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="359"/>
+            <point key="canvasLocation" x="357" y="377"/>
         </scene>
     </scenes>
     <resources>
