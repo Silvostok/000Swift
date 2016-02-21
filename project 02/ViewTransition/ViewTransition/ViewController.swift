@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    view.backgroundColor = UIColor.blackColor()
     button.titleLabel?.font = UIFont.systemFontOfSize(72, weight: 0)
     button.setTitle("😛", forState: UIControlState.Normal)
     button.addTarget(self, action: "flip", forControlEvents: .TouchUpInside)
