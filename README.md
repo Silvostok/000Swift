@@ -1,9 +1,5 @@
 
-
-https://github.com/Silvostok/000Swift/blob/master/Cover.png
-
-
-
+![Alt text](https://github.com/Silvostok/000Swift/blob/master/Cover.png)
 
 
 <p align="center">
