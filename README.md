@@ -1,5 +1,10 @@
 
 
+https://github.com/Silvostok/000Swift/blob/master/Cover.png
+
+
+
+
 
 <p align="center">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
