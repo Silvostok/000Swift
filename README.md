@@ -34,6 +34,8 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
 
 ## Project 02 - View Transition
 
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2002/ViewTransition/Project_02.gif)
+
 I have learned:
 - how to create a UIController programatilly
 - using transitionWithView func for easy annimations
