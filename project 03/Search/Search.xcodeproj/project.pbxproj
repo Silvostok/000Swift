@@ -482,6 +482,7 @@
 				4FD63E161C7602E300EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63E171C7602E300EC6E94 /* Build configuration list for PBXNativeTarget "SearchTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				4FD63E191C7602E300EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63E1A1C7602E300EC6E94 /* Build configuration list for PBXNativeTarget "SearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +500,7 @@
 				4FD63E1C1C7602E300EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
