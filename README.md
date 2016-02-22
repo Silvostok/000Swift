@@ -47,11 +47,12 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 03 - Search in a Table
 
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2003/Search/project_03.gif)
+
 I have learned:
-- 
-- 
-
-
+- how to display UISearchBar
+- how to use UISearchBarDelegate
+- Display and remove the keyboard with UISearchBar
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
@@ -59,9 +60,11 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 04 - Using Segues
 
+
 I have learned:
-- 
-- 
+- how
+- how
+- how
 
 
 
