@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SearchViewController" customModule="NSURLSession" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cjU-JA-HNn">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TrackCell" rowHeight="64" id="vIv-TE-GSC" customClass="TrackCell" customModule="NSURLSession" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vIv-TE-GSC" id="WnA-y1-JfW">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="63"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pg-2o-vxG">
+                                                    <rect key="frame" x="30" y="8" width="504" height="21"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fB9-1L-8De">
+                                                    <rect key="frame" x="30" y="34" width="497" height="21"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                    <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="artistLabel" destination="fB9-1L-8De" id="LYP-PI-UxI"/>
+                                            <outlet property="titleLabel" destination="9Pg-2o-vxG" id="sND-Rm-dg3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="kQy-uA-2Mq"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="azO-Bd-nQf"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="N2P-82-e9q">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ThM-9C-3wA"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cjU-JA-HNn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="64" id="CKP-pg-Rr7"/>
+                            <constraint firstItem="cjU-JA-HNn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Cbc-Cp-gEt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cjU-JA-HNn" secondAttribute="bottom" id="H1O-4D-Mj4"/>
+                            <constraint firstAttribute="trailing" secondItem="cjU-JA-HNn" secondAttribute="trailing" id="Tyy-wX-3Yq"/>
+                            <constraint firstItem="cjU-JA-HNn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X4f-6X-ixu"/>
+                            <constraint firstItem="cjU-JA-HNn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bq5-OG-suI"/>
+                            <constraint firstAttribute="trailing" secondItem="cjU-JA-HNn" secondAttribute="trailing" id="j50-dt-rdZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cjU-JA-HNn" secondAttribute="bottom" id="lRu-IW-bSw"/>
+                            <constraint firstItem="N2P-82-e9q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nNE-hb-tBE"/>
+                            <constraint firstAttribute="trailing" secondItem="N2P-82-e9q" secondAttribute="trailing" id="q88-Sz-Njp"/>
+                            <constraint firstItem="N2P-82-e9q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yWI-x0-tze"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bq5-OG-suI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="N2P-82-e9q" id="1Ad-i6-JaF"/>
+                        <outlet property="tableView" destination="cjU-JA-HNn" id="o7X-uy-0gD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="359"/>
+        </scene>
+    </scenes>
+</document>

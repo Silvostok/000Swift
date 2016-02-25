@@ -2,7 +2,7 @@
 //  SearchViewController.swift
 //  NSURLSession
 //
-//  Created by Miguel Angel Rubio Caballero on 23/02/16.
+//  Created by Miguel Angel Rubio Caballero on 25/02/16.
 //  Copyright © 2016 MiguelRubio. All rights reserved.
 //
 
@@ -13,18 +13,17 @@ class SearchViewController: UIViewController {
   @IBOutlet weak var tableView: UITableView!
   @IBOutlet weak var searchBar: UISearchBar!
   
+  
   var searchResults = [Track]()
   
   let defaultSession = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
   var dataTask: NSURLSessionDataTask?
   
-  
   override func viewDidLoad() {
     super.viewDidLoad()
+    //tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     tableView.tableFooterView = UIView()
   }
-  
-  
   
   // MARK: Handling Search Results
   
@@ -42,7 +41,7 @@ class SearchViewController: UIViewController {
               let name = trackDictonary["trackName"] as? String
               let artist = trackDictonary["artistName"] as? String
               searchResults.append(Track(name: name, artist: artist, previewUrl: previewUrl))
-              //print("\(array)")
+              
             } else {
               print("Not a dictionary")
             }
@@ -63,16 +62,12 @@ class SearchViewController: UIViewController {
     }
   }
   
-  
   // MARK: Keyboard dismissal
-  
   func dismissKeyboard() {
     searchBar.resignFirstResponder()
   }
+  
 }
-
-
-
 
 extension SearchViewController: UITableViewDataSource {
   
@@ -85,15 +80,11 @@ extension SearchViewController: UITableViewDataSource {
     
     let track = searchResults[indexPath.row]
     
-    //    cell.textLabel?.text = track.name
-    //    cell.detailTextLabel?.text = track.artist
-    
     cell.titleLabel.text = track.name
     cell.artistLabel.text = track.artist
     
     return cell
   }
-  
 }
 
 
@@ -109,20 +100,29 @@ extension SearchViewController: UITableViewDelegate {
 extension SearchViewController: UISearchBarDelegate {
   
   func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    // Dimiss the keyboard
     dismissKeyboard()
+    
     if !searchBar.text!.isEmpty {
+      
       if dataTask != nil {
         dataTask?.cancel()
       }
+      
       UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+      
       let expectedCharSet = NSCharacterSet.URLQueryAllowedCharacterSet()
       let searchTerm = searchBar.text!.stringByAddingPercentEncodingWithAllowedCharacters(expectedCharSet)!
+      
       let url = NSURL(string: "https://itunes.apple.com/search?media=music&entity=song&term=\(searchTerm)")
+      
       dataTask = defaultSession.dataTaskWithURL(url!) {
         data, response, error in
+        
         dispatch_async(dispatch_get_main_queue()) {
           UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         }
+        
         if let error = error {
           print(error.localizedDescription)
         } else if let httpResponse = response as? NSHTTPURLResponse {

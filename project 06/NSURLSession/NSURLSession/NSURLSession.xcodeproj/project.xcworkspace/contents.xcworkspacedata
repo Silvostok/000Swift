@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/Cobra/Desktop/000Swift/project 06/NSURLSession/NSURLSession.xcodeproj">
+      location = "self:NSURLSession.xcodeproj">
    </FileRef>
 </Workspace>

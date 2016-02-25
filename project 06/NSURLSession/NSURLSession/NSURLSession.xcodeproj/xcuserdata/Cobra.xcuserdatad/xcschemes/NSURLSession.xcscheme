@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FBA1AF61C7C6E7800BD6F32"
+               BlueprintIdentifier = "4F38482F1C7EFC6D00FFFA96"
                BuildableName = "NSURLSession.app"
                BlueprintName = "NSURLSession"
                ReferencedContainer = "container:NSURLSession.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F3848431C7EFC6E00FFFA96"
+               BuildableName = "NSURLSessionTests.xctest"
+               BlueprintName = "NSURLSessionTests"
+               ReferencedContainer = "container:NSURLSession.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F38484E1C7EFC6E00FFFA96"
+               BuildableName = "NSURLSessionUITests.xctest"
+               BlueprintName = "NSURLSessionUITests"
+               ReferencedContainer = "container:NSURLSession.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FBA1AF61C7C6E7800BD6F32"
+            BlueprintIdentifier = "4F38482F1C7EFC6D00FFFA96"
             BuildableName = "NSURLSession.app"
             BlueprintName = "NSURLSession"
             ReferencedContainer = "container:NSURLSession.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FBA1AF61C7C6E7800BD6F32"
+            BlueprintIdentifier = "4F38482F1C7EFC6D00FFFA96"
             BuildableName = "NSURLSession.app"
             BlueprintName = "NSURLSession"
             ReferencedContainer = "container:NSURLSession.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FBA1AF61C7C6E7800BD6F32"
+            BlueprintIdentifier = "4F38482F1C7EFC6D00FFFA96"
             BuildableName = "NSURLSession.app"
             BlueprintName = "NSURLSession"
             ReferencedContainer = "container:NSURLSession.xcodeproj">

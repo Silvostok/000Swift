@@ -1,6 +1,6 @@
 //
 //  TrackCell.swift
-//  NSURLSession
+//  SearchApp
 //
 //  Created by Miguel Angel Rubio Caballero on 23/02/16.
 //  Copyright © 2016 MiguelRubio. All rights reserved.

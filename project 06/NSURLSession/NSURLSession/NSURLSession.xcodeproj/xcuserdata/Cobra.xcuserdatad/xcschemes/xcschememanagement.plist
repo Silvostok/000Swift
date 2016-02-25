@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SearchApp.xcscheme</key>
+		<key>NSURLSession.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4FBA1AF61C7C6E7800BD6F32</key>
+		<key>4F38482F1C7EFC6D00FFFA96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F3848431C7EFC6E00FFFA96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F38484E1C7EFC6E00FFFA96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
