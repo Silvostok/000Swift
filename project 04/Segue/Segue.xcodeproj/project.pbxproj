@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F57F2291C80842B00C574FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57F2281C80842B00C574FE /* DetailViewController.swift */; };
+		4F57F22B1C80845900C574FE /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57F22A1C80845900C574FE /* Datasource.swift */; };
+		4F57F22D1C80849200C574FE /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57F22C1C80849200C574FE /* City.swift */; };
 		4FD63E641C76132900EC6E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63E631C76132900EC6E94 /* AppDelegate.swift */; };
 		4FD63E661C76132900EC6E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63E651C76132900EC6E94 /* ViewController.swift */; };
 		4FD63E691C76132900EC6E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD63E671C76132900EC6E94 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F57F2281C80842B00C574FE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4F57F22A1C80845900C574FE /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		4F57F22C1C80849200C574FE /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		4FD63E601C76132900EC6E94 /* Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD63E631C76132900EC6E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD63E651C76132900EC6E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				4FD63E6A1C76132900EC6E94 /* Assets.xcassets */,
 				4FD63E6C1C76132900EC6E94 /* LaunchScreen.storyboard */,
 				4FD63E6F1C76132900EC6E94 /* Info.plist */,
+				4F57F2281C80842B00C574FE /* DetailViewController.swift */,
+				4F57F22A1C80845900C574FE /* Datasource.swift */,
+				4F57F22C1C80849200C574FE /* City.swift */,
 			);
 			path = Segue;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F57F2291C80842B00C574FE /* DetailViewController.swift in Sources */,
+				4F57F22D1C80849200C574FE /* City.swift in Sources */,
 				4FD63E661C76132900EC6E94 /* ViewController.swift in Sources */,
+				4F57F22B1C80845900C574FE /* Datasource.swift in Sources */,
 				4FD63E641C76132900EC6E94 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				4FD63E8A1C76132900EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63E8B1C76132900EC6E94 /* Build configuration list for PBXNativeTarget "SegueTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				4FD63E8D1C76132900EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63E8E1C76132900EC6E94 /* Build configuration list for PBXNativeTarget "SegueUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				4FD63E901C76132900EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
