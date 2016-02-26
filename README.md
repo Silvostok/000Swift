@@ -61,7 +61,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 ## Project 04 - Passing Data Forward
 
 
-!(Alt)[https://github.com/Silvostok/000Swift/blob/master/project%2004/Segue/project_04.gif]
+!(Alt)[https://raw.github.com/Silvostok/000Swift/blob/master/project%2004/Segue/project_04.gif]
 
 
 I have learned:
