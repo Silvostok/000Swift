@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F57F22F1C80FB2800C574FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F57F22E1C80FB2800C574FE /* Assets.xcassets */; };
 		4FD63DB61C7601D100EC6E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63DB51C7601D100EC6E94 /* AppDelegate.swift */; };
 		4FD63DB81C7601D100EC6E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63DB71C7601D100EC6E94 /* ViewController.swift */; };
 		4FD63DBB1C7601D100EC6E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD63DB91C7601D100EC6E94 /* Main.storyboard */; };
-		4FD63DBD1C7601D100EC6E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD63DBC1C7601D100EC6E94 /* Assets.xcassets */; };
 		4FD63DC01C7601D100EC6E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD63DBE1C7601D100EC6E94 /* LaunchScreen.storyboard */; };
 		4FD63DCB1C7601D100EC6E94 /* ViewTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63DCA1C7601D100EC6E94 /* ViewTransitionTests.swift */; };
 		4FD63DD61C7601D100EC6E94 /* ViewTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD63DD51C7601D100EC6E94 /* ViewTransitionUITests.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F57F22E1C80FB2800C574FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD63DB21C7601D100EC6E94 /* ViewTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD63DB51C7601D100EC6E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD63DB71C7601D100EC6E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FD63DBA1C7601D100EC6E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FD63DBC1C7601D100EC6E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD63DBF1C7601D100EC6E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FD63DC11C7601D100EC6E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD63DC61C7601D100EC6E94 /* ViewTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,10 +97,10 @@
 		4FD63DB41C7601D100EC6E94 /* ViewTransition */ = {
 			isa = PBXGroup;
 			children = (
+				4F57F22E1C80FB2800C574FE /* Assets.xcassets */,
 				4FD63DB51C7601D100EC6E94 /* AppDelegate.swift */,
 				4FD63DB71C7601D100EC6E94 /* ViewController.swift */,
 				4FD63DB91C7601D100EC6E94 /* Main.storyboard */,
-				4FD63DBC1C7601D100EC6E94 /* Assets.xcassets */,
 				4FD63DBE1C7601D100EC6E94 /* LaunchScreen.storyboard */,
 				4FD63DC11C7601D100EC6E94 /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD63DC01C7601D100EC6E94 /* LaunchScreen.storyboard in Resources */,
-				4FD63DBD1C7601D100EC6E94 /* Assets.xcassets in Resources */,
+				4F57F22F1C80FB2800C574FE /* Assets.xcassets in Resources */,
 				4FD63DBB1C7601D100EC6E94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +482,7 @@
 				4FD63DDC1C7601D100EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63DDD1C7601D100EC6E94 /* Build configuration list for PBXNativeTarget "ViewTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				4FD63DDF1C7601D100EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD63DE01C7601D100EC6E94 /* Build configuration list for PBXNativeTarget "ViewTransitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +500,7 @@
 				4FD63DE21C7601D100EC6E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

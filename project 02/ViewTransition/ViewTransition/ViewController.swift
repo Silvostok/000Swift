@@ -15,9 +15,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = UIColor.blackColor()
+    view.backgroundColor = UIColor(red: 64/255, green: 224/255, blue: 122/255, alpha: 1)
     button.titleLabel?.font = UIFont.systemFontOfSize(72, weight: 0)
-    button.setTitle("😛", forState: UIControlState.Normal)
+    //button.setTitle("⥣", forState: UIControlState.Normal)
+    button.setTitle("⥥", forState: UIControlState.Normal)
     button.addTarget(self, action: "flip", forControlEvents: .TouchUpInside)
     
     view.addSubview(button)
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
       duration: 0.3,
       options: .TransitionFlipFromTop,
       animations: {
-        self.button.setTitle(self.flipped ? "😛" : "🤑", forState: .Normal)
+        self.button.setTitle(self.flipped ? "⥣" : "⥥", forState: .Normal)
       },
       completion: nil
     )
