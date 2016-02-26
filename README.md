@@ -20,7 +20,7 @@ Learning Swift by doing. This is how I'm learning iOS, Swift and practice my des
 
 
 ## Project 01 - Camera
-![Alt text](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2001/Camera/project_01.gif)
+![Alt text](https://github.com/Silvostok/000Swift/blob/master/project%2001/Camera/project_01.gif)
 
 I have learned:
 
@@ -91,3 +91,19 @@ Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 Credits: Free resources: This 12 Colorful Music Icons are designed by Pramod Kabadi. 
 Source: [sketchappsources](http://www.sketchappsources.com/free-source/1829-colorful-music-icon-set-sketch-freebie-resource.html)
+
+
+
+## Project 06 - NSURL Session
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2006/NSURLSession/NSURLSession/project_06.gif)
+
+I have learned:
+- how to use NSURL session fro a nwetwork request
+- how to retriving remote JSON
+- how to parsing JSON in Swift in the native way
+
+Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
+
+
+
