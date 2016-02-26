@@ -58,14 +58,16 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
-## Project 04 - Using Segues
+## Project 04 - Passing Data Forward
+
+
+!(Alt)[https://github.com/Silvostok/000Swift/blob/master/project%2004/Segue/project_04.gif]
 
 
 I have learned:
-- how
-- how
-- how
-
+- how parse date between twee View Controllers
+- how to use prep for segue
+- how to compose a datasource
 
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
@@ -99,7 +101,7 @@ Source: [sketchappsources](http://www.sketchappsources.com/free-source/1829-colo
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2006/NSURLSession/NSURLSession/project_06.gif)
 
 I have learned:
-- how to use NSURL session fro a nwetwork request
+- how to use NSURL session from a network request
 - how to retriving remote JSON
 - how to parsing JSON in Swift in the native way
 
