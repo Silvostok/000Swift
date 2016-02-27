@@ -61,7 +61,8 @@ class Datasource: NSObject {
     soria.name = "Soria"
     soria.regio = "Castilla-Leon"
     soria.id = "8"
-    soria.image = UIImage(named: "soria")!
+    //soria.image = UIImage(asset: .Soria)
+    soria.image = UIImage(asset: .Soria)
     
   
     cities = [cadiz, vigo, caceres, valencia, sevilla, bilbao, zamora, soria]
