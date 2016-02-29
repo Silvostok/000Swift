@@ -1,9 +1,9 @@
 //
 //  GradientView.swift
-//  Wallpapers
+//  CollectionView
 //
-//  Created by Mic Pringle on 09/01/2015.
-//  Copyright (c) 2015 Razeware LLC. All rights reserved.
+//  Created by Miguel Angel Rubio Caballero on 29/02/16.
+//  Copyright © 2016 MiguelRubio. All rights reserved.
 //
 
 import UIKit
