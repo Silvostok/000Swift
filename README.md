@@ -110,7 +110,7 @@ Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 ## Project 06 - Collection View
 
-![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2006/NSURLSession/NSURLSession/project_07.gif)
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2007/CollectionView/project_07.gif)
 
 I have learned:
 - how to use UICollection View
