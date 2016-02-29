@@ -108,4 +108,16 @@ I have learned:
 Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 
+## Project 06 - Collection View
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2006/NSURLSession/NSURLSession/project_07.gif)
+
+I have learned:
+- how to use UICollection View
+- how to display images in collection view
+- how parse date from a Collection View controller to another View Controller
+
+Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
+
+
 
