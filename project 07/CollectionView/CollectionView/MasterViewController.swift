@@ -49,9 +49,15 @@ class MasterViewController: UICollectionViewController {
   
   override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
     
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as UICollectionViewCell
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as? CityCell
     
-    return cell
+    
+    if let city = citiesDatasource.cityForItemAtIndexPath(indexPath) {
+      cell?.city = city
+    }
+    
+    
+    return cell!
   }
   
   

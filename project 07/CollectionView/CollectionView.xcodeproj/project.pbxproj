@@ -18,6 +18,8 @@
 		4F5825421C844AF6008A6978 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5825411C844AF6008A6978 /* DetailViewController.swift */; };
 		4F5825461C846022008A6978 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F5825451C846022008A6978 /* Cities.plist */; };
 		4F5825481C8465DB008A6978 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5825471C8465DB008A6978 /* City.swift */; };
+		4F58254A1C84A8F7008A6978 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5825491C84A8F7008A6978 /* CityCell.swift */; };
+		4F58254C1C84C3D6008A6978 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58254B1C84C3D6008A6978 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		4F5825411C844AF6008A6978 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4F5825451C846022008A6978 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		4F5825471C8465DB008A6978 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		4F5825491C84A8F7008A6978 /* CityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		4F58254B1C84C3D6008A6978 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		4F58250C1C838770008A6978 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				4F58254B1C84C3D6008A6978 /* GradientView.swift */,
 				4F58250D1C838770008A6978 /* AppDelegate.swift */,
 				4F58250F1C838770008A6978 /* MasterViewController.swift */,
 				4F5825411C844AF6008A6978 /* DetailViewController.swift */,
@@ -115,6 +120,7 @@
 				4F5825191C838771008A6978 /* Info.plist */,
 				4F5825471C8465DB008A6978 /* City.swift */,
 				4F58253F1C8441D6008A6978 /* CitiesDatasource.swift */,
+				4F5825491C84A8F7008A6978 /* CityCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -271,7 +277,9 @@
 			files = (
 				4F5825101C838770008A6978 /* MasterViewController.swift in Sources */,
 				4F58250E1C838770008A6978 /* AppDelegate.swift in Sources */,
+				4F58254A1C84A8F7008A6978 /* CityCell.swift in Sources */,
 				4F5825481C8465DB008A6978 /* City.swift in Sources */,
+				4F58254C1C84C3D6008A6978 /* GradientView.swift in Sources */,
 				4F5825421C844AF6008A6978 /* DetailViewController.swift in Sources */,
 				4F5825401C8441D6008A6978 /* CitiesDatasource.swift in Sources */,
 			);
@@ -498,6 +506,7 @@
 				4F5825341C838771008A6978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5825351C838771008A6978 /* Build configuration list for PBXNativeTarget "CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				4F5825371C838771008A6978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5825381C838771008A6978 /* Build configuration list for PBXNativeTarget "CollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				4F58253A1C838771008A6978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
