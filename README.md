@@ -122,12 +122,12 @@ Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 ## Project 08 - Custom Controller View - In progress
 
-
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2008/CustomCVLayout/project_08.gif)
 
 I have learned:
 - XXXX
 - XXX
-
+- XXX
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
@@ -139,7 +139,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 I have learned:
 - XXX
 - XX
-
+- XXX
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
