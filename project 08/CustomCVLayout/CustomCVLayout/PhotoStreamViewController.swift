@@ -7,22 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PhotoStreamViewController: UICollectionViewController {
   
   
-  var colors: [UIColor] {
-    get {
-      var colors = [UIColor]()
-      let palette = [UIColor.redColor(), UIColor.greenColor(), UIColor.blueColor(), UIColor.orangeColor(), UIColor.purpleColor(), UIColor.yellowColor()]
-      var paletteIndex = 0
-      for _ in 0..<photos.count {
-        colors.append(palette[paletteIndex])
-        paletteIndex = paletteIndex == (palette.count - 1) ? 0 : ++paletteIndex
-      }
-      return colors
-    }
-  }
   
   var photos = Photo.allPhotos()
   
@@ -40,11 +29,16 @@ class PhotoStreamViewController: UICollectionViewController {
     }
     
     collectionView!.backgroundColor = UIColor.clearColor()
-    let size = CGRectGetWidth(collectionView!.bounds) / 2
-    let layout = collectionViewLayout as! UICollectionViewFlowLayout
-    layout.itemSize = CGSize(width: size, height: size)
+    collectionView!.contentInset = UIEdgeInsets(top: 23, left: 5, bottom: 10, right: 5)
+    
+    //let size = CGRectGetWidth(collectionView!.bounds) / 2
+  let layout = collectionViewLayout as! PinterestLayout
+    layout.cellPadding = 5
+    layout.delegate = self
+    layout.numberOfColumns = 2
+    
   }
-
+  
 
 }
 
@@ -56,10 +50,44 @@ extension PhotoStreamViewController {
   }
   
   override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("AnnotatedPhotoCell", forIndexPath: indexPath) as UICollectionViewCell
-    cell.contentView.backgroundColor = colors[indexPath.item]
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("AnnotatedPhotoCell", forIndexPath: indexPath) as! AnnotatedPhotoCell
+    
+    cell.photo = photos[indexPath.item]
+    
     return cell
   }
   
 }
+
+
+extension PhotoStreamViewController: PinterestLayoutDelegate {
+  
+  func collectionView(collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: NSIndexPath, withWidth width: CGFloat) -> CGFloat {
+    
+    let photo = photos[indexPath.item]
+    let boundingRect = CGRect(x: 0, y: 0, width: width, height: CGFloat(MAXFLOAT))
+    let rect = AVMakeRectWithAspectRatioInsideRect(photo.image.size, boundingRect)
+    return rect.height
+  
+  }
+  
+  func collectionView(collectionView: UICollectionView, heightForAnnotationAtIndexPath indexPath: NSIndexPath, withWidth width: CGFloat) -> CGFloat {
+    
+    let photo = photos[indexPath.item]
+    let font = UIFont(name: "HelveticaNeue-light", size: 12)!
+    let commentHeight = photo.heightForComment(font, width: width)
+    let height = 4 + 17 + commentHeight + 4
+    return height
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
 

@@ -20,6 +20,7 @@
 		4F58258E1C862018008A6978 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58258D1C862018008A6978 /* AnnotatedPhotoCell.swift */; };
 		4F5825901C86221D008A6978 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58258F1C86221D008A6978 /* RoundedCornersView.swift */; };
 		4F5825921C862298008A6978 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5825911C862298008A6978 /* Photos.xcassets */; };
+		4F58259A1C86E2E9008A6978 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5825991C86E2E9008A6978 /* PinterestLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4F58258D1C862018008A6978 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
 		4F58258F1C86221D008A6978 /* RoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
 		4F5825911C862298008A6978 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
+		4F5825991C86E2E9008A6978 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,18 +111,16 @@
 		4F5825581C85CEBB008A6978 /* CustomCVLayout */ = {
 			isa = PBXGroup;
 			children = (
-				4F58258D1C862018008A6978 /* AnnotatedPhotoCell.swift */,
-				4F58258F1C86221D008A6978 /* RoundedCornersView.swift */,
+				4F5825981C86E0C3008A6978 /* Layout */,
+				4F5825951C86E064008A6978 /* Assets */,
+				4F5825931C86E036008A6978 /* View */,
 				4F58258B1C861E8A008A6978 /* UIImage+Decompression.swift */,
-				4F5825891C85D64F008A6978 /* Photos.plist */,
-				4F5825911C862298008A6978 /* Photos.xcassets */,
-				4F5825601C85CEBB008A6978 /* Assets.xcassets */,
 				4F5825591C85CEBB008A6978 /* AppDelegate.swift */,
 				4F58255B1C85CEBB008A6978 /* PhotoStreamViewController.swift */,
 				4F58255D1C85CEBB008A6978 /* Main.storyboard */,
 				4F5825621C85CEBB008A6978 /* LaunchScreen.storyboard */,
 				4F5825651C85CEBB008A6978 /* Info.plist */,
-				4F5825871C85D43E008A6978 /* Photo.swift */,
+				4F5825941C86E04A008A6978 /* Model */,
 			);
 			path = CustomCVLayout;
 			sourceTree = "<group>";
@@ -141,6 +141,41 @@
 				4F58257B1C85CEBB008A6978 /* Info.plist */,
 			);
 			path = CustomCVLayoutUITests;
+			sourceTree = "<group>";
+		};
+		4F5825931C86E036008A6978 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F58258D1C862018008A6978 /* AnnotatedPhotoCell.swift */,
+				4F58258F1C86221D008A6978 /* RoundedCornersView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F5825941C86E04A008A6978 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F5825871C85D43E008A6978 /* Photo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F5825951C86E064008A6978 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4F5825891C85D64F008A6978 /* Photos.plist */,
+				4F5825911C862298008A6978 /* Photos.xcassets */,
+				4F5825601C85CEBB008A6978 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4F5825981C86E0C3008A6978 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4F5825991C86E2E9008A6978 /* PinterestLayout.swift */,
+			);
+			name = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +314,7 @@
 				4F5825881C85D43E008A6978 /* Photo.swift in Sources */,
 				4F58258C1C861E8A008A6978 /* UIImage+Decompression.swift in Sources */,
 				4F58255C1C85CEBB008A6978 /* PhotoStreamViewController.swift in Sources */,
+				4F58259A1C86E2E9008A6978 /* PinterestLayout.swift in Sources */,
 				4F58255A1C85CEBB008A6978 /* AppDelegate.swift in Sources */,
 				4F58258E1C862018008A6978 /* AnnotatedPhotoCell.swift in Sources */,
 				4F5825901C86221D008A6978 /* RoundedCornersView.swift in Sources */,
