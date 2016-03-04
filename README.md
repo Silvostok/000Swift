@@ -120,4 +120,27 @@ I have learned:
 Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 
+## Project 08 - Custom Controller View - In progress
+
+
+
+I have learned:
+- how to create a UIController programatilly
+- using transitionWithView func for easy annimations
+
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+
+## Project 09 - Using AlamoFire - In progress
+
+
+
+I have learned:
+- XXX
+- XX
+
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
 
