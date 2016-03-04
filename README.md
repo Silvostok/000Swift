@@ -125,8 +125,8 @@ Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 
 I have learned:
-- how to create a UIController programatilly
-- using transitionWithView func for easy annimations
+- XXXX
+- XXX
 
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
