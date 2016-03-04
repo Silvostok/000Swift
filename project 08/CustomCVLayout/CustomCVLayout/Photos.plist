@@ -22,7 +22,7 @@
 		<key>Caption</key>
 		<string>Sevilla</string>
 		<key>Comment</key>
-		<string>There are so many happy people at RWDevCon - it&apos;s amazing.</string>
+		<string>Seville is the capital of southern Spain’s Andalusia region and a hotbed for flamenco dance, especially in the Triana neighborhood.</string>
 		<key>Photo</key>
 		<string>03</string>
 	</dict>
@@ -30,7 +30,7 @@
 		<key>Caption</key>
 		<string>Cordoba</string>
 		<key>Comment</key>
-		<string>The moment it all became very real. The conference really was happening!</string>
+		<string>Córdoba is a city in the southern Spanish province of Andalusia. It was an important Roman city and an Islamic cultural center in the Middle Ages.</string>
 		<key>Photo</key>
 		<string>04</string>
 	</dict>
@@ -38,7 +38,7 @@
 		<key>Caption</key>
 		<string>Jaen</string>
 		<key>Comment</key>
-		<string>Without you we wouldn&apos;t have been able to put on this amazing conference.</string>
+		<string>Jaén is a city in south-central Spain. The name is derived from the Arabic word khayyān.</string>
 		<key>Photo</key>
 		<string>05</string>
 	</dict>
@@ -46,7 +46,7 @@
 		<key>Caption</key>
 		<string>Granada</string>
 		<key>Comment</key>
-		<string>The Avengers certainly have nothing on this lot!</string>
+		<string>Granada, in the foothills of the Sierra Nevada mountains in Andalucía, has many important examples of medieval architecture dating to the Moorish occupation of Spain.</string>
 		<key>Photo</key>
 		<string>06</string>
 	</dict>
@@ -54,7 +54,7 @@
 		<key>Caption</key>
 		<string>Malaga</string>
 		<key>Comment</key>
-		<string>&quot;Matthijs, stop going on about architecture, we&apos;re trying to eat!&quot;</string>
+		<string>Málaga is a port city on southern Spain’s Costa del Sol, known for its high-rise hotels and resorts jutting up from yellow-sand beaches.</string>
 		<key>Photo</key>
 		<string>07</string>
 	</dict>
@@ -62,7 +62,7 @@
 		<key>Caption</key>
 		<string>Almeria</string>
 		<key>Comment</key>
-		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<string>Almería is a city in Andalusia, Spain, situated in the southeast of Spain on the Mediterranean Sea. It is the capital of the province of the same name.</string>
 		<key>Photo</key>
 		<string>08</string>
 	</dict>
@@ -70,7 +70,7 @@
 		<key>Caption</key>
 		<string>Ceuta</string>
 		<key>Comment</key>
-		<string>The attendees eaglery awaiting the final big announcement.</string>
+		<string>Ceuta Spanish autonomous city located on the north coast of Africa, sharing a western border with Morocco.</string>
 		<key>Photo</key>
 		<string>09</string>
 	</dict>
@@ -78,7 +78,7 @@
 		<key>Caption</key>
 		<string>Melilla</string>
 		<key>Comment</key>
-		<string>Check out Marin&apos;s new catalogue pose!</string>
+		<string>Melilla is a Spanish autonomous city located on the north coast of Africa, sharing a border with Morocco with an area of 12.3 square kilometres. Melilla, along with Ceuta, is one of two permanently inhabited Spanish cities in mainland Africa.</string>
 		<key>Photo</key>
 		<string>10</string>
 	</dict>
@@ -86,7 +86,7 @@
 		<key>Caption</key>
 		<string>Badajoz</string>
 		<key>Comment</key>
-		<string>Meet Christine, the world&apos;s least terrifying pirate.</string>
+		<string>Badajoz is the capital of the Province of Badajoz in the autonomous community of Extremadura, Spain. It is situated close to the Portuguese border, on the left bank of the river Guadiana.</string>
 		<key>Photo</key>
 		<string>11</string>
 	</dict>
@@ -94,7 +94,7 @@
 		<key>Caption</key>
 		<string>Caceres</string>
 		<key>Comment</key>
-		<string>An impromptu ukulele jamming session in the bar with Tim and Tammy.</string>
+		<string>Cáceres is the capital of Cáceres province, in the autonomous community of Extremadura, Spain.</string>
 		<key>Photo</key>
 		<string>12</string>
 	</dict>
@@ -102,7 +102,7 @@
 		<key>Caption</key>
 		<string>Murcia</string>
 		<key>Comment</key>
-		<string>That&apos;s right Saul, we caught you napping.</string>
+		<string>Murcia is a university city in southeastern Spain and the capital of the region of Murcia. Plaza Cardinal Belluga is the city’s architectural showpiece.</string>
 		<key>Photo</key>
 		<string>13</string>
 	</dict>
