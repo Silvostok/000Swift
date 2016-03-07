@@ -1,5 +1,5 @@
 
-![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/blob/master/Cover.png)
+![Alt](https://github.com/Silvostok/000Swift/blob/master/Cover.png)
 
 
 <p align="center">
