@@ -25,9 +25,9 @@ Learning Swift by doing. This is how I'm learning iOS, Swift and practice my des
 
 I have learned:
 
-- how to use 
-- how to use 
-- how to use
+- how to use UIAlertController
+- how to use UIImagePickerController
+- how to use Camera 
 
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
