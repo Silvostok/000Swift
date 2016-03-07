@@ -134,7 +134,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 09 - Using AlamoFire - In progress
 
-
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2009/PhotoTagger/project_09.gif)
 
 I have learned:
 - XXX
@@ -143,4 +143,13 @@ I have learned:
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
+## Project 10 - Using AlamoFire - In progress
 
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2009/PhotoTagger/project_09.gif)
+
+I have learned:
+- XXX
+- XX
+- XXX
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
