@@ -120,36 +120,36 @@ I have learned:
 Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 
-## Project 08 - Custom Controller View - In progress
+## Project 08 - Custom Collection View Layout
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2008/CustomCVLayout/project_08.gif)
 
 I have learned:
-- XXXX
-- XXX
-- XXX
+- How to create a basis layout using UICollectionViewLayout
+- How to create Dynamically Sized Cells, how to use de Cache Layout Attributes
+- How to create Custom Cell Padding & Insets and how to use Custom Layout Attributes
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
-## Project 09 - Using AlamoFire - In progress
+## Project 09 - Using AlamoFire
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2009/PhotoTagger/project_09.gif)
 
 I have learned:
-- XXX
-- XX
-- XXX
+- How to use Alomofire, Swift-based HTTP networking library for iOS and Mac OS X
+- Passing JSON
+- networking tasks like uploading files and requesting data from a third-party RESTful API
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7 - Swift 2.2, UIKit, AlamoFire, Sketch 3.5
 
-## Project 10 - Using AlamoFire - In progress
+## Project 10 - Using MapKit
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2010/AdamPublicArt/project_10.gif)
 
 I have learned:
-- XXX
-- XX
-- XXX
+- how to display a map
+- how to zooms into a location 
+- how to create a map annotation
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7 - Swift 2.2, UIKit, MapKit Sketch 3.5
