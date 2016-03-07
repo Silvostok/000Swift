@@ -76,7 +76,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 05 - Delete rows in Table
-![Alt text](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2005/TableDeleteRow/TableDeleteRow.gif?raw=true)
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2005/TableDeleteRow/project_05.gif)
 
 
 I have learned:
