@@ -20,7 +20,8 @@ Learning Swift by doing. This is how I'm learning iOS, Swift and practice my des
 
 
 ## Project 01 - Camera
-![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/blob/master/project%2001/Camera/project_01.gif)
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2001/Camera/project_01.gif)
 
 I have learned:
 
