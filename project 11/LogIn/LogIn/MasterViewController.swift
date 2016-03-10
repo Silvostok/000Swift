@@ -196,7 +196,7 @@ extension MasterViewController: NSFetchedResultsControllerDelegate {
     
     fetchRequest.sortDescriptors = [sortDescriptor]
     
-    let aFetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.managedObjectContext!, sectionNameKeyPath: nil, cacheName: "Master")
+    let aFetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.managedObjectContext!, sectionNameKeyPath: nil, cacheName: "Sabores")
     aFetchedResultsController.delegate = self
     _fetchedResultsController = aFetchedResultsController
     
