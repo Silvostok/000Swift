@@ -193,6 +193,7 @@
                         </variation>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="createInfoLabel" destination="ewh-2j-nud" id="uLt-uK-4zL"/>
                         <outlet property="loginButton" destination="4Yp-Rr-mOm" id="jmu-CM-uen"/>
