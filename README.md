@@ -154,3 +154,15 @@ I have learned:
 - how to create a map annotation
 
 Tools: Xcode 7 - Swift 2.2, UIKit, MapKit Sketch 3.5
+
+
+## Project 10 - Login
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2010/AdamPublicArt/project_10.gif)
+
+I have learned:
+- how to use segue and unwindSegue
+- how to use UITextViewDelegate
+- how to use NSFetchedResultsController class
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
