@@ -17,30 +17,18 @@ class CollectionViewController: UICollectionViewController {
   private let photos = ["photo1", "photo2", "photo3", "photo4", "photo5", "photo6", "photo7", "photo8"]
   
   
-
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        //self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
-    }
-
-
-
-    // MARK: - Navigation
-
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+  }
+  
+  // MARK: - Navigation
+  
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     if let cell = sender as? UICollectionViewCell, indexPath = collectionView?.indexPathForCell(cell), zoomedPhotoViewController = segue.destinationViewController as? ZoomedPhotoViewController {
       zoomedPhotoViewController.photoName = "photo\(indexPath.row + 1)"
     }
   }
-
   
 }
 
