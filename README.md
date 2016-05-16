@@ -166,3 +166,59 @@ I have learned:
 - how to use NSFetchedResultsController class
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 12 - XXXXXX
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+
+I have learned:
+- how to use segue and unwindSegue
+- how to use UITextViewDelegate
+- how to use NSFetchedResultsController class
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+
+## Project 13 - XXXXXX
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+
+I have learned:
+- how to use segue and unwindSegue
+- how to use UITextViewDelegate
+- how to use NSFetchedResultsController class
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 14 - XXXXXX
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+
+I have learned:
+- how to use segue and unwindSegue
+- how to use UITextViewDelegate
+- how to use NSFetchedResultsController class
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 15 - XXXXXX
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+
+I have learned:
+- how to use segue and unwindSegue
+- how to use UITextViewDelegate
+- how to use NSFetchedResultsController class
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 16 - XXXXX
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+
+I have learned:
+- how to use segue and unwindSegue
+- how to use UITextViewDelegate
+- how to use NSFetchedResultsController class
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
