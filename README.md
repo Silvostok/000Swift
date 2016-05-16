@@ -27,7 +27,7 @@ Now I know...
 - how to use Camera 
 
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 02 - View Transition
@@ -39,7 +39,7 @@ Now I know...
 - using transitionWithView func for easy annimations
 
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
@@ -52,7 +52,7 @@ Now I know...
 - how to use UISearchBarDelegate
 - Display and remove the keyboard with UISearchBar
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
@@ -68,7 +68,7 @@ I have learned:
 - how to compose a datasource
 
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
@@ -103,7 +103,7 @@ Now I know...
 - how to retriving remote JSON
 - how to parsing JSON in Swift in the native way
 
-Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 07 - Collection View
@@ -115,7 +115,7 @@ Now I know...
 - how to display images in collection view
 - how parse date from a Collection View controller to another View Controller
 
-Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 08 - Custom Collection View Layout
@@ -127,7 +127,7 @@ Now I know...
 - How to create Dynamically Sized Cells, how to use de Cache Layout Attributes
 - How to create Custom Cell Padding & Insets and how to use Custom Layout Attributes
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 09 - Using AlamoFire
@@ -139,7 +139,7 @@ Now I know...
 - Passing JSON
 - networking tasks like uploading files and requesting data from a third-party RESTful API
 
-Tools: Xcode 7 - Swift 2.2, UIKit, AlamoFire, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 10 - Using MapKit
 
@@ -150,7 +150,7 @@ Now I know...
 - how to zooms into a location 
 - how to create a map annotation
 
-Tools: Xcode 7 - Swift 2.2, UIKit, MapKit Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 11 - Login
@@ -162,7 +162,7 @@ Now I know...
 - how to use UITextViewDelegate
 - how to use NSFetchedResultsController class
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 12 - My Photos Scroll
 
@@ -173,19 +173,12 @@ Now I know...
 - how to use NSLayoutConstraint
 - how to use UIScrollView
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 ## Project 13 - in progress
 
-![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
 
-Now I know...
-- how to use segue and unwindSegue
-- how to use UITextViewDelegate
-- how to use NSFetchedResultsController class
-
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 14 - in progress
 
