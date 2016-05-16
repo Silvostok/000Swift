@@ -186,7 +186,7 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 16 - Timer
 
-![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_12.gif)
 
 Now I know...
 - how to use segue and unwindSegue
