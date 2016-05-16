@@ -3,28 +3,25 @@
 
 
 <p align="center">
-    <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
+    <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 9+" />
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift2-f48041.svg?style=flat" alt="Language: Swift 2" /></a>
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/UI Design-Sketch 3.5-yellow.svg?style=flat" alt="UI Design: Sketch" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Silvostok/000Swift/project%2001 - Camera">project 01</a> &bull; 
-</p>
 
 
 
 # 000Swift
 
-Learning Swift by doing. This is how I'm learning iOS, Swift and practice my design skills with Sketch. I try to put in practice what I'm learning. Thanks for yours comments.
+Learning iOS and Swift by doing. 
+I'm learning iOS, Swift and practice my design skills with Sketch. I put in practice what I'm learning. Thanks for your comments.
 
 
 ## Project 01 - Camera
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2001/Camera/project_01.gif)
 
-I have learned:
-
+Now I know...
 - how to use UIAlertController
 - how to use UIImagePickerController
 - how to use Camera 
@@ -37,7 +34,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch
 
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2002/ViewTransition/Project_02.gif)
 
-I have learned:
+Now I know...
 - how to create a UIController programatilly
 - using transitionWithView func for easy annimations
 
@@ -50,7 +47,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2003/Search/project_03.gif)
 
-I have learned:
+Now I know...
 - how to display UISearchBar
 - how to use UISearchBarDelegate
 - Display and remove the keyboard with UISearchBar
@@ -101,7 +98,7 @@ Source: [sketchappsources](http://www.sketchappsources.com/free-source/1829-colo
 
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2006/NSURLSession/NSURLSession/project_06.gif)
 
-I have learned:
+Now I know...
 - how to use NSURL session from a network request
 - how to retriving remote JSON
 - how to parsing JSON in Swift in the native way
@@ -113,7 +110,7 @@ Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2007/CollectionView/project_07.gif)
 
-I have learned:
+Now I know...
 - how to use UICollection View
 - how to display images in collection view
 - how parse date from a Collection View controller to another View Controller
@@ -125,7 +122,7 @@ Tools: Xcode 7 - Swift 2.2 - UIKit - Sketch 3.5
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2008/CustomCVLayout/project_08.gif)
 
-I have learned:
+Now I know...
 - How to create a basis layout using UICollectionViewLayout
 - How to create Dynamically Sized Cells, how to use de Cache Layout Attributes
 - How to create Custom Cell Padding & Insets and how to use Custom Layout Attributes
@@ -137,7 +134,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2009/PhotoTagger/project_09.gif)
 
-I have learned:
+Now I know...
 - How to use Alomofire, Swift-based HTTP networking library for iOS and Mac OS X
 - Passing JSON
 - networking tasks like uploading files and requesting data from a third-party RESTful API
@@ -148,7 +145,7 @@ Tools: Xcode 7 - Swift 2.2, UIKit, AlamoFire, Sketch 3.5
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2010/AdamPublicArt/project_10.gif)
 
-I have learned:
+Now I know...
 - how to display a map
 - how to zooms into a location 
 - how to create a map annotation
@@ -160,63 +157,49 @@ Tools: Xcode 7 - Swift 2.2, UIKit, MapKit Sketch 3.5
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
 
-I have learned:
+Now I know...
 - how to use segue and unwindSegue
 - how to use UITextViewDelegate
 - how to use NSFetchedResultsController class
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
-## Project 12 - XXXXXX
+## Project 12 - My Photos Scroll
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
 
-I have learned:
+Now I know...
+- how to use UICollectionViewController
+- how to use NSLayoutConstraint
+- how to use UIScrollView
+
+Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+
+
+## Project 13 - in progress
+
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+
+Now I know...
 - how to use segue and unwindSegue
 - how to use UITextViewDelegate
 - how to use NSFetchedResultsController class
 
 Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
+## Project 14 - in progress
 
-## Project 13 - XXXXXX
 
-![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
 
-I have learned:
-- how to use segue and unwindSegue
-- how to use UITextViewDelegate
-- how to use NSFetchedResultsController class
+## Project 15 - in progress
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
 
-## Project 14 - XXXXXX
+
+## Project 16 - Timer
 
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
 
-I have learned:
-- how to use segue and unwindSegue
-- how to use UITextViewDelegate
-- how to use NSFetchedResultsController class
-
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
-
-## Project 15 - XXXXXX
-
-![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
-
-I have learned:
-- how to use segue and unwindSegue
-- how to use UITextViewDelegate
-- how to use NSFetchedResultsController class
-
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
-
-## Project 16 - XXXXX
-
-![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
-
-I have learned:
+Now I know...
 - how to use segue and unwindSegue
 - how to use UITextViewDelegate
 - how to use NSFetchedResultsController class
