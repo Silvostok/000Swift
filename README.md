@@ -186,7 +186,7 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 16 - Timer
 
-![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_12.gif)
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_16.gif)
 
 Now I know...
 - how to use NSTimer
