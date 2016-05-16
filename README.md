@@ -14,7 +14,7 @@
 # 000Swift
 
 Learning iOS and Swift by doing. 
-I'm learning iOS, Swift and practice my design skills with Sketch. I put in practice what I'm learning. Thanks for your comments.
+I'm learning iOS, Swift and practice my design skills with Sketch. Here you can find my mini projects which I have been working on. Putting in practice what I'm learning. Thanks for your comments.
 
 
 ## Project 01 - Camera
