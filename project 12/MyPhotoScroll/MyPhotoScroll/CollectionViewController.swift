@@ -19,7 +19,7 @@ class CollectionViewController: UICollectionViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+        
   }
   
   // MARK: - Navigation
