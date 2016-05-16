@@ -189,8 +189,6 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_12.gif)
 
 Now I know...
-- how to use segue and unwindSegue
-- how to use UITextViewDelegate
-- how to use NSFetchedResultsController class
+- how to use NSTimer
 
 Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
