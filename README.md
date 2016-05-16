@@ -162,7 +162,7 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 12 - My Photos Scroll
 
-![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2011/LogIn/project_11.gif)
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2012/MyPhotoScroll/project_12.gif)
 
 Now I know...
 - how to use UICollectionViewController
@@ -193,4 +193,4 @@ Now I know...
 - how to use UITextViewDelegate
 - how to use NSFetchedResultsController class
 
-Tools: Xcode 7 - Swift 2.2, UIKit, Sketch 3.5
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
