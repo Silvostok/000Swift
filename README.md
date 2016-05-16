@@ -4,7 +4,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/platform-iOS%209%2B-blue.svg?style=flat" alt="Platform: iOS 9+" />
-    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift2.2-f48041.svg?style=flat" alt="Language: Swift 2.2" /></a>
+    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language- Swift 2.2-f48041.svg?style=flat" alt="Language: Swift 2.2" /></a>
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/UI Design-Sketch 3.5-yellow.svg?style=flat" alt="UI Design: Sketch" /></a>
 </p>
 
