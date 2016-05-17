@@ -62,7 +62,7 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2004/Segue/project_04.gif)
 
 
-I have learned:
+Now I know...
 - how parse date between twee View Controllers
 - how to use prep for segue
 - how to compose a datasource
@@ -76,7 +76,7 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 ![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2005/TableDeleteRow/project_05.gif)
 
 
-I have learned:
+Now I know...
 - delete row in table using Table delegate function
 - deleting row with animation
 - using special built-in item to put on nav bar: editButtonItem()
@@ -160,7 +160,7 @@ Now I know...
 
 Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
-## Project 12 - My Photos Scroll
+## Project 12 - Photo Album
 
 ![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2012/MyPhotoScroll/project_12.gif)
 
