@@ -178,7 +178,7 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 ## Project 14 - Layout with Dynamic Constraints
 
-![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2012/MyPhotoScroll/project_12.gif)
+![Alt](https://github.com/Silvostok/000Swift/blob/master/project%2014/DynamicConstraints/project_14.gif)
 
 Now I know...
 - how to use Layout with Dynamic Constraints
