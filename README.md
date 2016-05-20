@@ -176,8 +176,14 @@ Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
 
 
 
-## Project 14 - in progress
+## Project 14 - Layout with Dynamic Constraints
 
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2012/MyPhotoScroll/project_12.gif)
+
+Now I know...
+- how to use Layout with Dynamic Constraints
+- how to use MKMapView
+- how to use UIWebView
 
 
 ## Project 15 - in progress
