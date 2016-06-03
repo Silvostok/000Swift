@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MRMapMyPoints" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jgo-gA-23p">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MD6-UX-H1K">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" id="Ae8-JK-gPz">
+                                        <view key="customView" contentMode="scaleToFill" id="oWu-PQ-d1C">
+                                            <rect key="frame" x="20" y="6" width="165" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="14T-Ba-k1T">
+                                                    <rect key="frame" x="116" y="1" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="UtJ-Fy-jfD"/>
+                                                    </connections>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locate me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STG-Q7-fcZ">
+                                                    <rect key="frame" x="0.0" y="6" width="80" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="14T-Ba-k1T" secondAttribute="trailing" id="4NQ-Z4-ttU"/>
+                                                <constraint firstItem="14T-Ba-k1T" firstAttribute="centerY" secondItem="oWu-PQ-d1C" secondAttribute="centerY" id="XVL-AC-itI"/>
+                                                <constraint firstItem="STG-Q7-fcZ" firstAttribute="centerY" secondItem="14T-Ba-k1T" secondAttribute="centerY" id="wfJ-lN-XY2"/>
+                                                <constraint firstItem="STG-Q7-fcZ" firstAttribute="leading" secondItem="oWu-PQ-d1C" secondAttribute="leading" id="zWU-Fj-LQM"/>
+                                            </constraints>
+                                        </view>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cTY-fX-tBf"/>
+                                    <barButtonItem title="Park" id="elr-HN-RrP">
+                                        <connections>
+                                            <action selector="parkButtonPressed:" destination="BYZ-38-t0r" id="cIy-ZI-DFo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="GC8-oC-J8z"/>
+                                    <barButtonItem title="Market" id="tzp-cp-rdI">
+                                        <connections>
+                                            <action selector="marktButtonPressed:" destination="BYZ-38-t0r" id="5dr-6O-vbC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hpj-Tc-Fmo"/>
+                                    <barButtonItem title="Museo" id="WNr-af-LMS">
+                                        <connections>
+                                            <action selector="museoButtonPressed:" destination="BYZ-38-t0r" id="iza-0k-VoA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="MD6-UX-H1K" secondAttribute="trailing" constant="-20" id="67C-PA-xoB"/>
+                            <constraint firstItem="Jgo-gA-23p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Z8-cJ-XN3"/>
+                            <constraint firstItem="MD6-UX-H1K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="IcC-dD-MRI"/>
+                            <constraint firstItem="Jgo-gA-23p" firstAttribute="leading" secondItem="MD6-UX-H1K" secondAttribute="leading" id="KtN-Eg-eD1"/>
+                            <constraint firstAttribute="trailing" secondItem="Jgo-gA-23p" secondAttribute="trailing" id="Sod-NW-XAH"/>
+                            <constraint firstItem="Jgo-gA-23p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tuc-Pv-xNo"/>
+                            <constraint firstItem="Jgo-gA-23p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="USO-7M-1wn"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="MD6-UX-H1K" secondAttribute="bottom" id="XN2-si-xvC"/>
+                            <constraint firstItem="Jgo-gA-23p" firstAttribute="trailing" secondItem="MD6-UX-H1K" secondAttribute="trailing" id="ZgH-2W-yBz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jgo-gA-23p" secondAttribute="bottom" id="jGY-QP-mEo"/>
+                            <constraint firstItem="Jgo-gA-23p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lpD-YG-nXX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jgo-gA-23p" secondAttribute="trailing" id="qYK-xL-XsY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6Z8-cJ-XN3"/>
+                                <exclude reference="Sod-NW-XAH"/>
+                                <exclude reference="lpD-YG-nXX"/>
+                                <exclude reference="qYK-xL-XsY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Jgo-gA-23p" id="eD9-GB-3MK"/>
+                        <outlet property="switchField" destination="14T-Ba-k1T" id="Wat-rQ-FNZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="319"/>
+        </scene>
+    </scenes>
+</document>

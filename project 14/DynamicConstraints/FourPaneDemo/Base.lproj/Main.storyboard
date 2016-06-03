@@ -69,9 +69,6 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="65c-lH-3Gm"/>
-                                <exclude reference="Gho-tr-icM"/>
-                                <exclude reference="mGe-nI-W7n"/>
                                 <exclude reference="AIE-Db-aKQ"/>
                                 <exclude reference="Pio-0H-bNC"/>
                                 <exclude reference="aH9-g8-2Za"/>
@@ -79,6 +76,9 @@
                                 <exclude reference="kVt-DC-a7H"/>
                                 <exclude reference="pEJ-he-Beb"/>
                                 <exclude reference="uB1-Kx-0dz"/>
+                                <exclude reference="65c-lH-3Gm"/>
+                                <exclude reference="Gho-tr-icM"/>
+                                <exclude reference="mGe-nI-W7n"/>
                                 <exclude reference="18u-u9-fUV"/>
                                 <exclude reference="45n-tb-lU7"/>
                                 <exclude reference="8tq-MW-gud"/>
@@ -92,13 +92,6 @@
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <exclude reference="2A1-sy-mFY"/>
-                                <exclude reference="65c-lH-3Gm"/>
-                                <include reference="Gho-tr-icM"/>
-                                <exclude reference="Vwp-io-r8e"/>
-                                <include reference="mGe-nI-W7n"/>
-                                <exclude reference="tCi-pi-Ms8"/>
-                                <exclude reference="zP5-d2-Q2l"/>
                                 <include reference="AIE-Db-aKQ"/>
                                 <exclude reference="Cme-Ul-osh"/>
                                 <exclude reference="DOf-Ll-IaJ"/>
@@ -109,6 +102,13 @@
                                 <include reference="kVt-DC-a7H"/>
                                 <exclude reference="pEJ-he-Beb"/>
                                 <include reference="uB1-Kx-0dz"/>
+                                <exclude reference="2A1-sy-mFY"/>
+                                <exclude reference="65c-lH-3Gm"/>
+                                <include reference="Gho-tr-icM"/>
+                                <exclude reference="Vwp-io-r8e"/>
+                                <include reference="mGe-nI-W7n"/>
+                                <exclude reference="tCi-pi-Ms8"/>
+                                <exclude reference="zP5-d2-Q2l"/>
                                 <exclude reference="18u-u9-fUV"/>
                                 <exclude reference="45n-tb-lU7"/>
                                 <include reference="8tq-MW-gud"/>
@@ -195,12 +195,12 @@ Tuesday 9AM–6PM
                                 <exclude reference="LPV-rK-iz6"/>
                                 <exclude reference="OVW-tP-AQb"/>
                                 <exclude reference="m08-hc-zyR"/>
+                                <exclude reference="nU6-1s-FMk"/>
                                 <exclude reference="4fq-h2-60I"/>
                                 <exclude reference="aXq-hK-5FM"/>
                                 <exclude reference="gBb-pi-9nw"/>
                                 <exclude reference="pcp-Xs-HPm"/>
                                 <exclude reference="r9D-x5-oSu"/>
-                                <exclude reference="nU6-1s-FMk"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -210,6 +210,9 @@ Tuesday 9AM–6PM
                                 <include reference="LPV-rK-iz6"/>
                                 <include reference="OVW-tP-AQb"/>
                                 <include reference="m08-hc-zyR"/>
+                                <exclude reference="Xcb-zv-brt"/>
+                                <exclude reference="bqB-8m-ByG"/>
+                                <include reference="nU6-1s-FMk"/>
                                 <include reference="4fq-h2-60I"/>
                                 <exclude reference="7gz-Xl-0kf"/>
                                 <exclude reference="P94-wg-rLc"/>
@@ -220,9 +223,6 @@ Tuesday 9AM–6PM
                                 <include reference="pcp-Xs-HPm"/>
                                 <include reference="r9D-x5-oSu"/>
                                 <exclude reference="xOd-dJ-1zC"/>
-                                <exclude reference="Xcb-zv-brt"/>
-                                <exclude reference="bqB-8m-ByG"/>
-                                <include reference="nU6-1s-FMk"/>
                             </mask>
                         </variation>
                     </view>
