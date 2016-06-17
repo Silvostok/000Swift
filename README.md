@@ -198,3 +198,50 @@ Now I know...
 - how to use NSTimer
 
 Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
+
+
+## Project 17 - Timer
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_16.gif)
+
+Now I know...
+- how to use NSTimer
+
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 18 - Timer
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_16.gif)
+
+Now I know...
+- how to use NSTimer
+
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 19 - Timer
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_16.gif)
+
+Now I know...
+- how to use NSTimer
+
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 20 - Timer
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_16.gif)
+
+Now I know...
+- how to use NSTimer
+
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
+
+## Project 21 - Timer
+
+![Alt](https://raw.githubusercontent.com/Silvostok/000Swift/master/project%2016/SwiftTimerTutorial/project_16.gif)
+
+Now I know...
+- how to use NSTimer
+
+Tools: Xcode 7.3 - Swift 2.2, UIKit, Sketch 3.5
+
